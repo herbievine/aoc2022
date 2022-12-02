@@ -20,6 +20,10 @@ fn main() {
             day01::a("./resources/day01.txt");
             day01::b("./resources/day01.txt");
         }
+        2 => {
+            day02::a("./resources/day02.txt");
+            day02::b("./resources/day02.txt");
+        }
         x => {
             println!("Day {} is not yet implemented", x);
             panic!();
